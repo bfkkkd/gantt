@@ -116,6 +116,12 @@ $(function() {
 		}  
   });  
 
+  $('#searchKeyword').keydown(function(e){
+    if(e.keyCode==13){
+       searchProject($('#searchType').val(),$('#searchKeyword').val())
+    }
+  }); 
+
 });
 
 function jsonErrorHandling(response) {

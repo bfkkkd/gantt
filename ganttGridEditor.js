@@ -386,7 +386,27 @@ GridEditor.prototype.bindRowInputEvents = function (task, taskRow) {
         //return false;
       }
 
-    }
+    } 
+
+    // auto status by xc
+	if (field == "name") {
+		self.master.beginTransaction();
+
+		if (el.val().indexOf(' 开发')>0)
+		{
+			task.changeStatus('STATUS_DONE');
+			console.debug(el.val(),task.status);
+		} else if (el.val().indexOf(' 测试')>0)
+		{
+			task.changeStatus('STATUS_SUSPENDED');
+		} else if (el.val().indexOf(' 联调')>0 || el.val().indexOf(' 支持')>0)
+		{
+			task.changeStatus('STATUS_FAILED');
+		}
+
+        self.master.endTransaction();
+
+    } 
   });
 
   //cursor key movement
