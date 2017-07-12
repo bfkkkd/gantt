@@ -1,37 +1,24 @@
-jQueryGantt
+base on jQueryGantt
 ===========
-jQuery Gantt editor has been written by Roberto Bicchierai and Silvia Chelazzi
-
-<img src="http://twproject.s3.amazonaws.com/resources/gantt_github2.jpg" alt="Twproject jQuery Gantt" border="0" />
-
-These are some key features:
-* jQuery based 3.2
-* MIT licensed: you can reuse everywhere
-* JSON import-export
-* internationalizable
-* manage task status –> project workflow
-* manage dependencies
-* manage assignments (resources, roles efforts)
-* server synchronization ready
-* full undo-redo support
-* cross browser (at least for recent versions)
-* keyboard editing support
-* SVG visual editor
-* print friendly
-* collapsible branches
-* critical path
-* milestones, progress etc.
-* zoom
-
 Try the online working demo here: https://gantt.twproject.com
 
-Read here about latest release: https://roberto.open-lab.com/2017/04/05/new-gantt-editor-release-the-best-ever/
+功能：
 
-Read the genesis of this component here: http://roberto.open-lab.com/2012/06/14/the-javascript-gantt-odyssey/
+搜索筛选：
+*支持关键字搜索。
+*支持只显示未完成项目。
+*回车直接提交。
 
-Documentation is here: http://roberto.open-lab.com/2012/08/24/jquery-gantt-editor/
+数据管理：
+*冲突管理，加入版本被修改提示，限制保存。
+*权限管理，加入简单权限管理，保存IP记录
+*加入每天备份机制，意外情况可恢复上一天修改情况。
 
-jQuery Gantt editor is part of <a href="https://twproject.com">Twproject 6</a> project
+便捷功能
+*状态自动变更，项目名称后填入 空格+开发 或 空格+测试 或 空格+联调 自动识别颜色。
 
-
+BUG
+*修复资源列表无法减员问题。
+*修复错误提示报错问题。
+*修正未登录用户场景，项目时间展示不变灰问题。
 
