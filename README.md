@@ -1,24 +1,37 @@
-base on jQueryGantt
+jQueryGantt
 ===========
+jQuery Gantt editor has been written by Roberto Bicchierai and Silvia Chelazzi
+
+<img src="http://twproject.s3.amazonaws.com/resources/gantt_github2.jpg" alt="Twproject jQuery Gantt" border="0" />
+
+These are some key features:
+* jQuery based 3.2
+* MIT licensed: you can reuse everywhere
+* JSON import-export
+* internationalizable
+* manage task status â€“> project workflow
+* manage dependencies
+* manage assignments (resources, roles efforts)
+* server synchronization ready
+* full undo-redo support
+* cross browser (at least for recent versions)
+* keyboard editing support
+* SVG visual editor
+* print friendly
+* collapsible branches
+* critical path
+* milestones, progress etc.
+* zoom
+
 Try the online working demo here: https://gantt.twproject.com
 
-¹¦ÄÜ£º
+Read here about latest release: https://roberto.open-lab.com/2017/04/05/new-gantt-editor-release-the-best-ever/
 
-ËÑË÷É¸Ñ¡£º
-1.Ö§³Ö¹Ø¼ü×ÖËÑË÷¡£
-2.Ö§³ÖÖ»ÏÔÊ¾Î´Íê³ÉÏîÄ¿¡£
-3.»Ø³µÖ±½ÓÌá½»¡£
+Read the genesis of this component here: http://roberto.open-lab.com/2012/06/14/the-javascript-gantt-odyssey/
 
-Êı¾İ¹ÜÀí£º
-1.³åÍ»¹ÜÀí£¬¼ÓÈë°æ±¾±»ĞŞ¸ÄÌáÊ¾£¬ÏŞÖÆ±£´æ¡£
-2.È¨ÏŞ¹ÜÀí£¬¼ÓÈë¼òµ¥È¨ÏŞ¹ÜÀí£¬±£´æIP¼ÇÂ¼
-3.¼ÓÈëÃ¿Ìì±¸·İ»úÖÆ£¬ÒâÍâÇé¿ö¿É»Ö¸´ÉÏÒ»ÌìĞŞ¸ÄÇé¿ö¡£
+Documentation is here: http://roberto.open-lab.com/2012/08/24/jquery-gantt-editor/
 
-±ã½İ¹¦ÄÜ
-1.×´Ì¬×Ô¶¯±ä¸ü£¬ÏîÄ¿Ãû³ÆºóÌîÈë ¿Õ¸ñ+¿ª·¢ »ò ¿Õ¸ñ+²âÊÔ »ò ¿Õ¸ñ+Áªµ÷ ×Ô¶¯Ê¶±ğÑÕÉ«¡£
+jQuery Gantt editor is part of <a href="https://twproject.com">Twproject 6</a> project
 
-BUG
-1.ĞŞ¸´×ÊÔ´ÁĞ±íÎŞ·¨¼õÔ±ÎÊÌâ¡£
-2.ĞŞ¸´´íÎóÌáÊ¾±¨´íÎÊÌâ¡£
-3.ĞŞÕıÎ´µÇÂ¼ÓÃ»§³¡¾°£¬ÏîÄ¿Ê±¼äÕ¹Ê¾²»±ä»ÒÎÊÌâ¡£
+
 
