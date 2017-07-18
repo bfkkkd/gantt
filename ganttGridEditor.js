@@ -395,7 +395,6 @@ GridEditor.prototype.bindRowInputEvents = function (task, taskRow) {
 		if (el.val().indexOf(' 开发')>0)
 		{
 			task.changeStatus('STATUS_DONE');
-			console.debug(el.val(),task.status);
 		} else if (el.val().indexOf(' 测试')>0)
 		{
 			task.changeStatus('STATUS_SUSPENDED');
@@ -406,7 +405,7 @@ GridEditor.prototype.bindRowInputEvents = function (task, taskRow) {
 
         self.master.endTransaction();
 
-    } 
+     } 
   });
 
   //cursor key movement

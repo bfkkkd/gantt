@@ -186,11 +186,10 @@ function searchProject(searchType, keyword) {
 			{
 				sTask.collapsed = false;
 				sTask.rowElement.show();
-			} else if (sTask.level == 1 || (sTask.hasChild == false && sTask.name.indexOf(keyword)==-1)){
+			} else if (sTask.level == 1 || (sTask.level > 1 && sTask.name.indexOf(keyword)==-1)){
 				sTask.collapsed = true;
 				sTask.rowElement.hide();
 		　　} else {
-				console.debug(sTask.name);
 				sTask.collapsed = false;
 				sTask.rowElement.show();
 				if (sTask.getParent())
